@@ -3,11 +3,25 @@ void PrintInteger(int n)
 {
 	for (int i = 0; i < n; ++i)
 		printf("Hello : %d\n", i);
+	printf("\n");
 }
 int main()
 {
 	PrintInteger(100);
+	PrintInteger(100);
+	PrintInteger(100);
 }
+
+//#include <stdio.h>
+//void PrintInteger(int n)
+//{
+//	for (int i = 0; i < n; ++i)
+//		printf("Hello : %d\n", i);
+//}
+//int main()
+//{
+//	PrintInteger(100);
+//}
 
 //#include <stdio.h>
 //int main()
